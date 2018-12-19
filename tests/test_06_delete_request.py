@@ -1,7 +1,6 @@
 __author__ = "Ricardo Acosta"
 
 import requests
-import json
 from data import data
 
 response = requests.delete(data.BASE_URL+'/users/571')
